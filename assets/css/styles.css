@@ -134,7 +134,8 @@ main h2 {
 .pizza {
 	width: 100px;
 	height: 100px;
-	background-image:url(/assets/images/chizburger.png);
+	/* background-image: url("C:\\Users\\kirill\\Code\\JavaScript\\pizza_comparison\\assets\\images\\chizburger.png"); */
+	background-image: url("..\\images\\chizburger.png");
 	background-size: cover;
 	position: absolute;
 	z-index: -1;
