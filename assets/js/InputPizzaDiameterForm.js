@@ -8,7 +8,7 @@ class InputPizzaDiameterForm {
     #measureForm = null
 
     #value = 0
-    #measure = "cm"
+    #measure = "sm"
 
     #MAX = MAX_PIZZA_DIAMETER_CM
     #MIN = MIN_PIZZA_DIAMETER_CM
@@ -31,14 +31,14 @@ class InputPizzaDiameterForm {
 
     changeMeasure() {
         window.resetWinner()
-        if (this.#measure == "cm") {
+        if (this.#measure == "sm") {
             this.#measure = "inch"
             this.#measureForm.value = "inch"
             this.#MAX = MAX_PIZZA_DIAMETER_INCH
             this.#MIN = MIN_PIZZA_DIAMETER_INCH
         } else {
-            this.#measure = "cm"
-            this.#measureForm.value = "cm"
+            this.#measure = "sm"
+            this.#measureForm.value = "sm"
             this.#MAX = MAX_PIZZA_DIAMETER_CM
             this.#MIN = MIN_PIZZA_DIAMETER_CM
         }
